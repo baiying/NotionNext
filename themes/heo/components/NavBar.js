@@ -148,7 +148,6 @@ const NavBar = props => {
                     <RandomPostButton {...props} />
                     <SearchButton {...props}/>
                     {!JSON.parse(siteConfig('THEME_SWITCH')) && <div className='hidden md:block'><DarkModeButton {...props} /></div>}
-                    <DarkModeButton/>
                     <ReadingProgress />
 
                     {/* 移动端菜单按钮 */}
