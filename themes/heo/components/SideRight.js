@@ -4,7 +4,6 @@ import Catalog from './Catalog'
 import { InfoCard } from './InfoCard'
 import dynamic from 'next/dynamic'
 import Live2D from '@/components/Live2D'
-import { AnalyticsCard } from './AnalyticsCard'
 import TouchMeCard from './TouchMeCard'
 import LatestPostsGroupMini from './LatestPostsGroupMini'
 
